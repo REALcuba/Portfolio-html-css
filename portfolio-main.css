@@ -1,0 +1,70 @@
+body{
+    display: float;
+    background: url(images/background-chispas.jpg);
+    background-color: blanchedalmond;
+    background-size: cover;
+}
+h1{
+    color:aqua
+}
+p{
+    color:azure
+}
+li{
+    color:azure
+}
+header ul li{
+    display: inline;
+}
+#header{
+    width: 70px;
+     height: 100px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; 
+}
+ #nav-bar{
+align-items: flex-start;
+     display:flex; 
+} 
+#search-bar{
+    text-align:right;
+   /* display:flex; */
+    float:right;
+    background-color: rgba(187, 204, 216, 0.4);
+    position: right; 
+    margin-right: 100px;
+}
+#profile-pic{
+    width:200px;
+   /* position: relative; */
+    margin-right: 50px;
+    border-radius: 30%;
+}
+#menu{
+    color:white;
+    background-color:rgba(121, 177, 218, 0.4);
+    border-radius: 20%;
+}
+#about-me-right{
+    background-color: rgb(194, 139, 145,0.3);
+    position: relative;
+    padding-left: 300px;
+    padding-right: 300px;
+    /* padding-top: 100px; */
+}
+#education{
+    background-color: rgba(118, 162, 194,0.4);
+}
+#cursos{
+    background-color: rgba(153, 153,89,0.8);
+}
+#icon-linkedin{
+    border-radius: 40%;
+}
+#footer{
+    margin-left: 150px;
+    position: center;
+    position: bottom;
+}
