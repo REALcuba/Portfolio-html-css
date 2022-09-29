@@ -1,92 +1,111 @@
 <!DOCTYPE html>
 <!--My Portfolio con HTML y CSS-->
 <html>
- <head>
-   <title>Angel's Portfolio</title>
-   <meta charset="utf-8">
-   <link rel="stylesheet" type="text/css" href="portfolio-main.css">
 
- </head>
- 
-    
-    
-</div>
- <body>
-     <header id="header">
-       <nav id="nav-bar">
-         <label>
-           <button id="menu" >Menu</button> 
-           <ul>
-             <li>Educación</li>
-             <li>Experiencia</li>
-           </ul>
-         </label>
-         </nav>
-        <form action="https://www.google.com/">
+<head>
+  <title>Angel's Portfolio</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="portfolio-main.css">
+
+</head>
+
+
+
+<body>
+  <header class="header">
+    <h1>My Portfolio</h1>
+    <nav class="nav-bar">
+      <a>
+        <h4>Educación</h4>
+      </a>
+      <a>
+        <h4>Esperiencia</h4>
+      </a>
+      <a>
+        <h4>About me</h4>
+      </a>
+    </nav>
+
+    <!-- <form action="https://www.google.com/">
            <input id="search-bar" placeholder="search" type="text" required>
            <button type="submit" >Submit</button>
-        </form>
-         <a><h4 style="color: red;">Educación</h4></a> <a><h4>Esperiencia</h4></a>
-       
-     </header>
-    <main>
-      <div id="">
-       
-         <h1>My Portfolio</h1>
+        </form> -->
 
-         <div id="left">
-         <!-- <img src="images\FB_IMG_1512473085799.jpg alt="Angel en un mirador con Barcelona al fondo" width="250px"> -->
-         <img id="profile-pic" src="images\IMAG0867.jpg" alt="Angel sonriendo sentado en un coche" >
+
+  </header>
+  <main>
+    <div id="">
+
+
+      <div class="wrapper">
+        <div class="left">
+          <img class="profile-pic" src="./images/profilepic.jpg" alt="Angel sonriendo sentado en un coche">
         </div>
-    
-         
-    <div id="wrapper">   
-      <div id="about-me-right">
-        <h2>About me</h2>  
-        <p>
-         Soy una persona dinámica, proactiva, responsable y comprometida, con capacidad de aprendizaje y de trabajo en equipo, polivalente, siempre enfocado a la obtención de resultados por objetivos.<br>
-        Gracias a mis 10 años de experiencia en el sector del turismo he desarrollado mis habilidades en el trato con los clientes y estoy preparado para lidiar con cualquier tipo de situación.<br>
-        Procuro crecer, mejorar y aprender de cada experiencia, tanto en el plano personal como profesional, porque en cada una de ellas subyacen valiosas lecciones para el futuro.
-       </p>
-    </div>
-       
-   </div>
+        <div class="about-me-right">
+          <h2>About me</h2>
+          <p>
+            Soy una persona dinámica, proactiva, responsable y comprometida, con capacidad de aprendizaje y de trabajo
+            en equipo, polivalente, siempre enfocado a la obtención de resultados por objetivos.<br>
+            Gracias a mis 10 años de experiencia en el sector del turismo he desarrollado mis habilidades en el trato
+            con los clientes y estoy preparado para lidiar con cualquier tipo de situación.<br>
+            Procuro crecer, mejorar y aprender de cada experiencia, tanto en el plano personal como profesional, porque
+            en cada una de ellas subyacen valiosas lecciones para el futuro.
+          </p>
+        </div>
 
-   <div>
-       <h2>Education</h2>
-         <div id="education">
-            <ol>
-              <li>2002: Bachiller</li>
-              <li>2002-2005: Idioma Chino Mandarín. Curso Experimental de la Facultad de Lenguas Extranjeras de la Universidad de La Habana. En intercambio con la Universidad de Beijin</li>
-              <li>2004-2006: Idioma Inglés Nivel Intermedio, Interchange del Centro Fray Bartolomé de las Casas avalado por la Universidad de Cambridge UK</li>
-              <li>2008-2009: Formación de Guías de Turismo de FORMATUR y Escuela de Altos Estudios de Hotelería y Turismo. (378 horas)</li>
-              <li>2017-2019: Grado Superior en Sonido Audiovisual en la escuela de cine <a href="https://cinenaccion.com/">Cinenaccion</a></li>
-            </ol>  
-         </div>
-          <div id="cursos">
-             <h3>Cursos</h3>
+      </div>
+      <div>
+        <h2>Experiencia</h2>
+        <span>
+          <p>Debido a la situación actual he decidido cambiar un poco mi perfil profesional al sector IT, <br>
+            por lo que actualmente no he tenido mucha experiencia laboral en este.
+          </p>
+          <h3>Junior IT Support </h3>
+        </span>
+      </div>
+      <div>
+        <h2>Education</h2>
+        <div class="education">
+          <ol>
+            <li>2017-2019: Grado Superior en Sonido Audiovisual en la escuela de cine <a
+                href="https://cinenaccion.com/">Cinenaccion</a></li>
+            <li>2008-2009: Formación de Guías de Turismo de FORMATUR y Escuela de Altos Estudios de Hotelería y Turismo.
+              (378 horas)</li>
+            <li>2004-2006: Idioma Inglés Nivel Intermedio, Interchange del Centro Fray Bartolomé de las Casas avalado
+              por la Universidad de Cambridge UK</li>
+            <li>2002-2005: Idioma Chino Mandarín. Curso Experimental de la Facultad de Lenguas Extranjeras de la
+              Universidad de La Habana. En intercambio con la Universidad de Beijin</li>
+            <li>2002: Bachiller</li>
+          </ol>
+        </div>
+        <div class="cursos">
+          <h3>Cursos</h3>
           <ul>
-            <li>2004-2005: Curso de Operador, Grabador, Musicalizador y Editor Artístico. Centro de Superación para la Cultura. La Habana.</li>
-            <li>2014: Curso de Bike Tour Leader Award. CTC Training (Actualmente Cycling UK). (40 horas)</li>
-            <li>2014: Curso de entrenamiento para Tour Leader. Exodus Travel Agency. (40 horas)</li><br>
-            <li>Curso de entrenamiento para Tour Leader. Explore Travel Agency. (40 horas)</li>
             <h4><strong>Google Activate</strong></h4>
             <li>2020: Introducción al Desarrollo Web 1 (40h)</li>
             <h4><strong>Barcelona Activa</strong></h4>
-                <li>Introducción a PHP.</li>
-                <li>Scrum, introducción a metodologías agiles.</li>
-            <a href=https://www.codecademy.com"><h4>Codecademy</h4></a>
+            <li>Introducción a PHP.</li>
+            <li>Scrum, introducción a metodologías agiles.</li>
+            <a href=https://www.codecademy.com">
+              <h4>Codecademy</h4>
+            </a>
             <li>Web Development Career Path</li>
             <li>Learn Git</li>
             <li>Learn Go</li>
             <li>Learn PHP</li>
             <li>Learn React</li>
             <li>Developing interactive websites with JavaScript.</li>
+            <li>2004-2005: Curso de Operador, Grabador, Musicalizador y Editor Artístico. Centro de Superación para la
+              Cultura. La Habana.</li>
+            <li>2014: Curso de Bike Tour Leader Award. CTC Training (Actualmente Cycling UK). (40 horas)</li>
+            <li>2014: Curso de entrenamiento para Tour Leader. Exodus Travel Agency. (40 horas)</li><br>
+            <li>Curso de entrenamiento para Tour Leader. Explore Travel Agency. (40 horas)</li>
+
           </ul>
- 
-          </div>    
-          
-       <!-- <label>
+
+        </div>
+
+        <!-- <label>
            <table>
                <header>
                    <tr>
@@ -113,17 +132,9 @@
                </tbody>
            </table>
        </label> -->
-       <div>
-           <h2>Experiencia</h2>
-          <span>
-              <p>Debido a la situación actual he decidido cambiar un poco mi perfil profesional al sector IT, <br>
-                por lo que actualmente no he tenido mucha experiencia laboral en este. 
-              </p>
-            </span>
-       </div>
-   </div> 
+
+      </div>
   </main>
- 
 
 
 
@@ -131,8 +142,11 @@
 
 
 
- <footer id="footer">
-    <a href="https://www.linkedin.com/in/angel-luis-matos-lopez-9726a8aa/" target="blank"><img id="icon-linkedin" src="images\LinkedIn-icon.jpg" alt="LinkedInIcon" width="50px">My LinkedIn</a>
- </footer>
+
+  <footer id="footer">
+    <a href="https://www.linkedin.com/in/angel-luis-matos-lopez-9726a8aa/" target="blank"><img id="icon-linkedin"
+        src="images\LinkedIn-icon.jpg" alt="LinkedInIcon" width="50px">My LinkedIn</a>
+  </footer>
 </body>
+
 </html>

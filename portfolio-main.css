@@ -1,69 +1,90 @@
-body{
-    display: float;
-    background: url(images/background-chispas.jpg);
-    background-color: blanchedalmond;
-    background-size: cover;
+body {
+    /* display: float; */
+    /* background: url(images/background-chispas.jpg); */
+    /* background-color: rgb(6, 6, 6); */
+    /* background-size: cover; */
+    color: rgb(4, 4, 4);
 }
-h1{
-    color:aqua
+
+/* h1 {
+    color: aqua
 }
-p{
-    color:azure
+
+p {
+    color: azure
 }
-li{
-    color:azure
+
+li {
+    color: azure
 }
-header ul li{
+
+header ul li {
     display: inline;
-}
-#header{
-    width: 70px;
-     height: 100px;
+} */
+
+.header {
+    height: 2em;
     border: 1px solid #c3c3c3;
     display: flex;
-    flex-wrap: wrap;
-    align-content: center; 
+    align-items: center;
+    justify-content: space-between;
+
 }
- #nav-bar{
-align-items: flex-start;
-     display:flex; 
-} 
-#search-bar{
-    text-align:right;
-   /* display:flex; */
-    float:right;
+
+.nav-bar {
+    display: flex;
+    width: 22%;
+    justify-content: space-evenly;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+}
+
+/* #search-bar {
+    text-align: right;
+    display:flex;
+    float: right;
     background-color: rgba(187, 204, 216, 0.4);
-    position: right; 
+    position: right;
     margin-right: 100px;
-}
-#profile-pic{
-    width:200px;
-   /* position: relative; */
+} */
+
+.profile-pic {
+    width: 200px;
+    /* position: relative; */
     margin-right: 50px;
     border-radius: 30%;
 }
-#menu{
-    color:white;
-    background-color:rgba(121, 177, 218, 0.4);
+
+/* #menu {
+    color: white;
+    background-color: rgba(121, 177, 218, 0.4);
     border-radius: 20%;
-}
-#about-me-right{
-    background-color: rgb(194, 139, 145,0.3);
+} */
+
+.about-me-right {
+    /* background-color: rgb(194, 139, 145, 0.3); */
     position: relative;
-    padding-left: 300px;
-    padding-right: 300px;
-    /* padding-top: 100px; */
+    padding: 100px 50px;
 }
-#education{
-    background-color: rgba(118, 162, 194,0.4);
-}
-#cursos{
-    background-color: rgba(153, 153,89,0.8);
-}
-#icon-linkedin{
+
+/* 
+.education {
+    background-color: rgba(118, 162, 194, 0.4);
+} */
+/* 
+.cursos {
+    background-color: rgba(153, 153, 89, 0.8);
+} */
+
+.icon-linkedin {
     border-radius: 40%;
 }
-#footer{
+
+.footer {
     margin-left: 150px;
     position: center;
     position: bottom;
