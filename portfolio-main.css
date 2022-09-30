@@ -21,6 +21,9 @@ li {
 header ul li {
     display: inline;
 } */
+.main_body {
+    display: flex;
+}
 
 .header {
     height: 2em;
